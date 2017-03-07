@@ -1,0 +1,22 @@
+
+<nav-bar></nav-bar>
+
+<!--<div class="container-fluid" ng-hide="!personClicked">-->
+    <!--<button class="btn btn-primary" ng-click="backToRoster()">Take Me Back to Roster</button>-->
+<!--</div>-->
+
+<div class="container-fluid rosterContainerFluid" ng-show="!personClicked">
+    <div class="row">
+        <div class="col-md-4 rosterNoPadding" ng-repeat="d in data">
+
+            <img class="rosterImage" ng-click="goToPerson(d)" ng-src="{{ d.imageUrl }}" ng-click="goToPerson(d)" />
+
+
+            <p class="nameHover" ng-click="goToPerson(d)">{{d.name}}</p>
+        </div>
+    </div>
+</div>
+
+<div>
+
+</div>

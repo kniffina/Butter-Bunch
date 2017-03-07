@@ -1,0 +1,148 @@
+/* BEGINNIGN OF NAVBAR CSS */
+.beingUsed {
+    text-decoration: underline;
+}
+
+.navCustom #toggleButton {
+    padding: 1em;
+    margin-top: 1.6em;
+
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.shrink #toggleButton {
+    margin-top: 1em;
+
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+#navbar {
+    margin-top: 1.2em;
+}
+
+.navCustom .navbar-collapse {
+    background-color: black;
+    color: white;
+}
+
+.shrink .navbar-collapse {
+    background-color: white;
+    color: black;
+}
+
+#navbar .collapse {
+    margin-top: 3em;
+}
+
+
+nav.navbar{
+    background-color:#000000;
+
+    -webkit-transition: all 1s ease;
+    transition: all 1S ease;
+}
+
+nav.navbar.shrink {
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.contentInline {
+
+}
+.shrink {
+    height: 5em;
+}
+
+
+.shrink ul  {
+    margin-top: -.7em;
+    padding-top: .4em;
+}
+
+.shrink .navbar-collapse {
+    margin-top: 5em;
+    color: red;
+}
+
+#butterFont {
+    font-family: pacifico;
+    font-size: 1.8em;
+    margin-right: 2em;
+    margin-top: .4em;
+
+}
+
+.navCustom #butterFont {
+    margin-top: .8em;
+}
+
+.navCustom #butterFont:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.shrink #butterFont {
+    font-size: 1.5em;
+}
+
+
+nav.navbar.shrink {
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    background-color: white;
+}
+
+nav .navbar.shrink.collapse {
+    margin-top: 5em;
+}
+
+
+
+nav.navbar.shrink #butterFont:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.navCustom {
+    height: 7em;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+#navbar {
+    font-size: 1em;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease
+}
+
+.shrink #navbar.collapse {
+    margin-top: -em;
+}
+
+.navCustom #navbar ul li:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.shrink #navbar ul li:hover {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* END NAVBAR CSS */

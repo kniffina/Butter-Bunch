@@ -1,0 +1,42 @@
+
+<nav-bar></nav-bar>
+
+
+<!-- SLIDER IMPLEMENTATION **NEEDS WORK ** -->
+<!--<div class="container slider">-->
+    <!--<div class="row">-->
+        <!--<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">-->
+            <!--<img class="imgSliderPicture" ng-repeat="slide in slides" class="slide"-->
+                            <!--ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.images.standard_resolution.url}}" />-->
+
+            <!--<a class="glyphicon glyphicon-chevron-left imagePointer" href="#" ng-click="prevSlide()">Previous</a>-->
+            <!--<a class="glyphicon glyphicon-chevron-right imagePointer" href="#" ng-click="nextSlide()">Next</a>-->
+
+            <!--<nav class="nav">-->
+                <!--<div class="wrapper">-->
+                    <!--<ul class="dots">-->
+                        <!--<li class="dot" ng-repeat="slide in slides" ng-hide="!isCurrentSlideIndex($index)">-->
+                            <!--<a href="#" ng-class="{'active':isCurrentSlideIndex($index)}"-->
+                                <!--ng-click="setCurrentSlideIndex($index);">{{slide.caption.text}}</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</nav>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div class="container">
+
+    <div class="row gallery">
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="slide in slides">
+            <a href="{{slide.link}}"><img class="main" ng-src="{{slide.images.low_resolution.url}}" /></a>
+
+            <div class="imgInfo">
+                <p>Likes: {{slide.likes.count}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
